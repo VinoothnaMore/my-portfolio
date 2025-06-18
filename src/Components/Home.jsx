@@ -34,7 +34,7 @@ function Home() {
         <div style={HomeStyle}>
 
             <div style={imageWrapperStyle}>
-                <img src='/ProfilePic.png' alt='' style={imageStyle}/>
+                <img src="/ProfilePic.png" alt='' style={imageStyle}/>
             </div>
 
             <div style={textStyle}>
