@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Home from './Components/Home';
+import NavigationBar from './Components/NavigationBar';
 
 function App() {
+  const AppStyle = {
+    backgroundColor: 'fff7ed',
+    minHeight: '100vh',
+    width: '100%',
+  };
+
+  const ContentStyle = {
+    paddingLeft: '20px'
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={AppStyle}>
+      <NavigationBar />
+      <div style={ContentStyle}>
+        <section id="home"><Home /></section>
+      </div>
     </div>
   );
 }
