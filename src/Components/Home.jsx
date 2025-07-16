@@ -15,7 +15,7 @@ function Home() {
 
     const textStyle = {
         flex: 1,
-        paddingLeft: '20rem',
+        paddingLeft: '10rem',
         color: '#374151'
         
     };
@@ -27,7 +27,8 @@ function Home() {
     const imageStyle ={
         maxWidth: '250px',
         height: 'auto',
-        borderRadius: '400px'
+        borderRadius: '400px',
+        marginLeft: '100px'
     };
 
     return (
@@ -38,7 +39,7 @@ function Home() {
             </div>
 
             <div style={textStyle}>
-                <h1>Hello and welcome to my portfolio!</h1>
+                <h1>Hello and Welcome to My Portfolio!</h1>
                 <h1>I’m Vinoothna More, a recent Computer Science graduate passionate about building meaningful tech. Everything you need to know about me is just a scroll away.</h1>
             </div> 
 

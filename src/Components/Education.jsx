@@ -47,8 +47,8 @@ function Education() {
                         <li style={listStyle}><strong>Algorithms & Programming:</strong> Advance Algorithm Design & Implementation, Agile Methods for Software Development</li>
                         <li style={listStyle}><strong>Data Science & Machine Learning:</strong> Data Analysis & Machine Learning, Mathematical Foundations of Machine Learning</li>
                         <li style={listStyle}><strong>Finance & Business Tools:</strong> Advanced Excel for Finance & Accounting</li>
-                        <li style={listStyle}><strong>Systems & Databases:</strong> Database Management Systems</li>
-                        <li style={listStyle}><strong>Security & Infrastructure:</strong> Fundamentals of Cybersecurity</li>
+                        <li style={listStyle}><strong>Systems & Infrastructure:</strong> Database Management Systems, Fundamentals of Cybersecurity</li>
+                        <li style={listStyle}><strong>User Experience & Interaction:</strong> Human Computer Interaction</li>
                     </ul>
                 </div>
             </div>
@@ -61,11 +61,12 @@ function Education() {
                     <p><strong>GPA: 3.5/4</strong></p>
                     <p style={{fontFamily: 'Verdana', fontSize: '15px'}}><strong>Coursework:</strong></p>
                     <ul>
-                        <li style={listStyle}><strong>Programming & Software Engineering:</strong> Agile Software Development, Compiler Design, Object Oriented Programming Through Java, Software Requirements Management, Software Testing Methodologies, Web Application Development</li>
-                        <li style={listStyle}><strong>Algorithms & Theoretical Foundations:</strong> Artificial Intelligence, Design & Analysis of Algorithms, Engineering Mathematics, Problem Solving & Programming, Optimization Techniques</li>
-                        <li style={listStyle}><strong>Systems & Architecture:</strong> Cloud Computing, Computer Organization & Architecture, Operating Systems</li>
+                        <li style={listStyle}><strong>Alogithms & Data Structures:</strong> Design & Analysis of Algorithms, Data Structures with Python, Optimization Techniques</li>
+                        <li style={listStyle}><strong>Artificial Intelligence & Data Science:</strong> Artificial Intelligence, Data Warehousing & Mining</li>
+                        <li style={listStyle}><strong>Core Computer Science Fundamentals:</strong> Engineering Mathematics</li>
                         <li style={listStyle}><strong>Networking & Security:</strong> Computer Networks, Cryptography & Network Security, Data Communications</li>
-                        <li style={listStyle}><strong>Data & Databases:</strong> Data Structures with Python, Data Warehousing & Mining</li>
+                        <li style={listStyle}><strong>Software Development & Engineering:</strong> Agile Software Development, Object Oriented Programming Through Java, Software Requirements Management, Software Testing Methodologies, Web Application Development, Problem Solving & Programming</li>
+                        <li style={listStyle}><strong>Systems & Architecture:</strong> Compiler Design, Computer Organization & Architecture, Operating Systems, Cloud Computing</li>
                     </ul>
                 </div>
             </div>
