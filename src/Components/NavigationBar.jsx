@@ -5,6 +5,11 @@ function NavigationBar() {
         <nav style={{ 
             backgroundColor: '#4d7c0f',
             padding: '25px', 
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: 1000
         }}>
             <div style={{
                 display: 'flex',
@@ -12,12 +17,17 @@ function NavigationBar() {
             }}>
                 <ul style={{
                     listStyle: 'none',
-                    diaply: 'flex',
+                    display: 'flex',
                     gap: '20px',
                     margin: 0,
                     padding: 0
                 }}>
                     <li><a href='#home' style={linkStyle}>Intro</a></li>
+                    <li><a href='#education' style={linkStyle}>Education</a></li>
+                    <li><a href='#experience' style={linkStyle}>Experience</a></li>
+                    <li><a href='#projects' style={linkStyle}>Projects</a></li>
+                    <li><a href='#skills' style={linkStyle}>Skills</a></li>
+                    <li><a href='#hobbies' style={linkStyle}>Hobbies</a></li>
                 </ul>
             </div>
         </nav>
@@ -25,9 +35,10 @@ function NavigationBar() {
 }
 
 const linkStyle = {
-    color: 'white',
+    color: '#ffd54f',
     textDecoration: 'none',
-    fontweight: '500'
+    fontWeight: '700',
+    fontSize: '20px'
 };
 
 export default NavigationBar;

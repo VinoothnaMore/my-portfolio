@@ -34,12 +34,12 @@ function Home() {
         <div style={HomeStyle}>
 
             <div style={imageWrapperStyle}>
-                <img src="/ProfilePic.png" alt='' style={imageStyle}/>
+                <img src={process.env.PUBLIC_URL + "/ProfilePic.png"} alt='' style={imageStyle}/>
             </div>
 
             <div style={textStyle}>
                 <h1>Hello and welcome to my portfolio!</h1>
-                <h1>I’m Vinoothna More, a recent Computer Science graduate passionate about building meaningful tech. Everything you need to know about me is just a click away.</h1>
+                <h1>I’m Vinoothna More, a recent Computer Science graduate passionate about building meaningful tech. Everything you need to know about me is just a scroll away.</h1>
             </div> 
 
         </div>

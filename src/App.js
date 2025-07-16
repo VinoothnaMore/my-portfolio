@@ -1,6 +1,11 @@
 
 import './App.css';
 import Home from './Components/Home';
+import Education from './Components/Education';
+import Experience from './Components/Experience';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Hobbies from './Components/Hobbies';
 import NavigationBar from './Components/NavigationBar';
 
 function App() {
@@ -11,7 +16,8 @@ function App() {
   };
 
   const ContentStyle = {
-    paddingLeft: '20px'
+    paddingLeft: '20px',
+    paddingTop: '100px'
   };
 
   return (
@@ -19,6 +25,11 @@ function App() {
       <NavigationBar />
       <div style={ContentStyle}>
         <section id="home"><Home /></section>
+        <section id="education" style={{ paddingTop: '100px', marginTop: '-100px'}}><Education /></section>
+        <section id="experience" style={{ paddingTop: '100px', marginTop: '-100px'}}><Experience /></section>
+        <section id="projects" style={{ paddingTop: '100px', marginTop: '-100px'}}><Projects /></section>
+        <section id="skills" style={{ paddingTop: '100px', marginTop: '-100px'}}><Skills /></section>
+        <section id="hobbies" style={{ paddingTop: '100px', marginTop: '-100px'}}><Hobbies /></section>
       </div>
     </div>
   );
