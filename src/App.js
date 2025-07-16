@@ -6,6 +6,7 @@ import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Hobbies from './Components/Hobbies';
+import Contact from './Components/Contact';
 import NavigationBar from './Components/NavigationBar';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <section id="projects" style={{ paddingTop: '100px', marginTop: '-100px'}}><Projects /></section>
         <section id="skills" style={{ paddingTop: '100px', marginTop: '-100px'}}><Skills /></section>
         <section id="hobbies" style={{ paddingTop: '100px', marginTop: '-100px'}}><Hobbies /></section>
+        <section id="contact" style={{ paddingTop: '100px', marginTop: '-100px'}}><Contact /></section>
       </div>
     </div>
   );

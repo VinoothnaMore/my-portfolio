@@ -13,12 +13,13 @@ function NavigationBar() {
         }}>
             <div style={{
                 display: 'flex',
-                justifyContent: 'flex-end'
+                justifyContent: 'center',
+                width: '100%'
             }}>
                 <ul style={{
                     listStyle: 'none',
                     display: 'flex',
-                    gap: '20px',
+                    gap: '50px',
                     margin: 0,
                     padding: 0
                 }}>
@@ -28,6 +29,7 @@ function NavigationBar() {
                     <li><a href='#projects' style={linkStyle}>Projects</a></li>
                     <li><a href='#skills' style={linkStyle}>Skills</a></li>
                     <li><a href='#hobbies' style={linkStyle}>Hobbies</a></li>
+                    <li><a href='#contact' style={linkStyle}>Contact</a></li>
                 </ul>
             </div>
         </nav>
